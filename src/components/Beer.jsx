@@ -5,6 +5,7 @@ function Beer(){
   return (
     <div>
     <Header />
+    <h1>Beer</h1>
     </div>
   );
 }
