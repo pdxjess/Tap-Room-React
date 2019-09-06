@@ -1,3 +1,38 @@
+body {
+  background-image: url('./assets/mainphoto.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-top h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.nav-bar li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-bar li:hover {
+  border-bottom: 2px solid white;
+}
+
 .container {
     margin: auto;
     text-align: center;
