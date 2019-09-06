@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <div>
-    <h1>Lucy</h1>
+    <Header/>
     <h3>A tap room in NE</h3>
     <hr/>
       <Switch>

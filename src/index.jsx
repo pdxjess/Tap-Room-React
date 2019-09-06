@@ -1,26 +1,33 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/*
+  issue with react-hot-loader
+  eventhough those 2 dependencies are only used in development
+  eslint has no way to tell that and outputs an error
+*/
+
+// react dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+// hot reload for development
 import { AppContainer } from 'react-hot-loader';
-import { HashRouter } from 'react-router-dom';
-// import App from './App';
-//
-// import './style.scss';
+
+import App from './App';
+
+import './style.scss';
+
+const root = document.getElementById('root');
 
 const render = (Component) => {
   ReactDOM.render(
     <AppContainer>
-      <HashRouter>
-      <Component/>
-      </HashRouter>
-      </AppContainer>,
-    document.getElementById('react-app-root')
+      <Component />
+    </AppContainer>,
+    root,
   );
 };
 
 render(App);
 
 if (module.hot) {
-  module.hot.accept('./components/App', () => { render(App);
-  });
+  module.hot.accept('./App', () => { render(App); });
 }
