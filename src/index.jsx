@@ -10,6 +10,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // hot reload for development
 import { AppContainer } from 'react-hot-loader';
+import Header from './Header';
+import Tagline from './Tagline';
 
 import App from './App';
 
@@ -20,7 +22,8 @@ const root = document.getElementById('root');
 const render = (Component) => {
   ReactDOM.render(
     <AppContainer>
-      <Component />
+      <Header />
+      <Tagline />
     </AppContainer>,
     root,
   );
