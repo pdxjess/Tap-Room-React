@@ -9,14 +9,12 @@ import reactLogo from './assets/React-icon.png';
 
 function App() {
   return (
+    <Router>
     <div className='App'>
-    <Header />
-      <Router>
-        <Switch>
-          <Route exact path='/' component={Header} />
-        </Switch>
-      </Router>
+      <Header />
+          <Routes />
     </div>
+    </Router>
   );
 }
 

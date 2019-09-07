@@ -11,7 +11,6 @@ function Header(){
       <div className="header-top">
         <h1>Lucy</h1>
         <Tagline />
-        <Router>
         <ul className="nav-bar">
           <li><Link to="./Beer">Beers</Link></li>
           <li><Link to="./Header">About</Link></li>
@@ -19,7 +18,6 @@ function Header(){
           <li><Link to="./Header">Sign up</Link></li>
           <li><Link to="./Header">Log in</Link></li>
         </ul>
-        </Router>
       </div>
     </div>
   );
