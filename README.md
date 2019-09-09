@@ -17,6 +17,10 @@ _An application built with React for a tap room to track their kegs._
 * _Type "npm start" to run website on localhost._
 * _Open your desired browser and type in "http://localhost:3000/"_
 
+## Component Tree
+
+![Component Tree](./src/assets/componentTree.png)
+
 ## Known Bugs
 
 _No known bugs_
