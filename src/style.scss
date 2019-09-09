@@ -35,7 +35,7 @@ h1::after {
 .nav-bar {
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  right: 3.5rem;
 }
 .nav-bar li {
   list-style: none;
@@ -73,9 +73,40 @@ h1::after {
     text-align: left;
 }
 
-.beer-header {
+
+.beer-box {
+  margin: 60px;
+  display: flow-root;
+  padding: 0px;
+  // background-color: rgba(144, 144, 144, 0.75);
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.header-tag {
+  color: white;
+}
+
+.beer-box h3 {
   text-align: center;
   color: white;
   font-size: 50px;
   font-family: 'Abril Fatface', cursive;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 25px;
+  list-style: none;
+  letter-spacing: 2px;
+  font-family: 'Tajawal', sans-serif;
+
+  .list_name {
+    text-transform: uppercase;
+  }
 }
