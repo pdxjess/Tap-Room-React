@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Tajawal:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Tajawal:300,400,900&display=swap');
 
 body {
-  background-image: url('./assets/mainphoto.jpg');
+  background-image: url('./assets/mainphoto3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -9,14 +9,14 @@ body {
 }
 
 .header-top h1 {
-  color: white ;
+  color: black ;
   font-size: 50px;
   font-family: 'Abril Fatface', cursive;
   letter-spacing: 2px;
 }
 
 .header-top h2 {
-  color: white;
+  color: black;
   font-size: 18px;
   font-family: 'Tajawal', sans-serif;
   font-weight: 400;
@@ -27,7 +27,7 @@ h1::after {
     display: inline-block;
     content: "";
     border-top: .3rem solid black;
-    width: 10rem;
+    width: 5rem;
     margin: -2px 1rem;
     transform: translateY(-1rem);
   }
@@ -78,24 +78,26 @@ h1::after {
   margin: 60px;
   display: flow-root;
   padding: 0px;
-  // background-color: rgba(144, 144, 144, 0.75);
-  background-color: black;
+  background-color: #484848;
+  opacity: .9;
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .header-tag {
-  color: white;
+  color: black;
   font-family: 'Tajawal', sans-serif;
   letter-spacing: 1px;
   font-weight: 400;
 }
 
 .beer-box h3 {
+  font-weight: 300;
   text-align: center;
   color: white;
   font-size: 50px;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Tajawal', sans-serif;
+
 }
 
 .grid-container {

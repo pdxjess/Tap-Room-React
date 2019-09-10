@@ -6,7 +6,7 @@ function Header(){
   return (
     <div className="container">
       <div className="header-top">
-        <h1>Lucy</h1>
+        <h1>FITGERS</h1>
         <ul className="nav-bar">
           <li><Link to="/beer">Beer</Link></li>
           <li><Link to="/">Home</Link></li>
