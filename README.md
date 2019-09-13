@@ -19,7 +19,7 @@ _An application built with React for a tap room to track their kegs._
 
 ## Component Tree
 
-![Component Tree](./src/assets/componentTree.png)
+<!-- ![Component Tree](./src/assets/componentTree.png) -->
 
 ## Known Bugs
 
