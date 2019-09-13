@@ -15,7 +15,7 @@ function Beer() {
           <div class="grid-item">Joe IPA</div>
           <div class="grid-item">10 Barrel</div>
           <div class="grid-item">6.9%</div>
-          <div class="grid-item">$7</div>
+          <div class="grid-item">$7.00</div>
           <div class="grid-item list_name"></div>
           <div class="grid-item">Bad Apple</div>
           <div class="grid-item">2 Towns</div>
