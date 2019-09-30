@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function NewKegForm(props) {
   let _name = null;
-  let _flavor = null;
+  let _alcohol = null;
   let _brand = null;
   let _price = null;
 
@@ -12,7 +12,7 @@ function NewKegForm(props) {
 
     props.onAddingNewKeg({
       name: _name.value,
-      flavor: _flavor.value,
+      alcohol: _alcohol.value,
       brand: _brand.value,
       price: _price.value,
     });
@@ -29,9 +29,9 @@ function NewKegForm(props) {
 
         <input
           type='text'
-          id='flavor'
-          placeholder='flavor'
-          ref={(input) => {_flavor = input;}}/>
+          id='alcohol'
+          placeholder='alcohol volume'
+          ref={(input) => {_alcohol = input;}}/>
 
         <input
           type='text'

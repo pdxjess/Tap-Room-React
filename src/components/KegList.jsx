@@ -9,7 +9,7 @@ function KegList(props) {
       <hr/>
       {props.kegList.map((keg, index) =>
         <Keg name={keg.name}
-          flavor={keg.flavor}
+          alcohol={keg.alcohol}
           brand={keg.brand}
           price={keg.price}
           image={keg.image}
