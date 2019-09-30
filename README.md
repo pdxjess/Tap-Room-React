@@ -6,7 +6,7 @@
 
 ## Description
 
-_An application built with React for a tap room to track their kegs._
+_An application built with React for a tap room to add and track kegs._
 
 ## Setup/Installation Requirements
 
@@ -19,7 +19,7 @@ _An application built with React for a tap room to track their kegs._
 
 ## Component Tree
 
-![Component Tree](./src/assets/componenttree2.png)
+![Component Tree](./src/assets/img/componenttree.png)
 
 ## Known Bugs
 

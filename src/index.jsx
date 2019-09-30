@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import App from './components/App';
 import { AppContainer } from 'react-hot-loader';
+import img from './assets/img/mainphoto3.jpg';
 
 const render = (Component) => {
   ReactDOM.render(
