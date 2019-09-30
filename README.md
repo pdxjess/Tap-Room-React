@@ -14,8 +14,8 @@ _An application built with React for a tap room to track their kegs._
 * _Open terminal and type 'git clone [git link]'_
 * _Navigate to project directory using cd in terminal_
 * _Open project in text editor (atom .)_
-* _Type "npm start" to run website on localhost._
-* _Open your desired browser and type in "http://localhost:3000/"_
+* _Run "npm install" to install_
+* _Open your desired browser and type in "localhost:8080"_
 
 ## Component Tree
 
